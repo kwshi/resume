@@ -1,0 +1,300 @@
+\documentclass[8pt]{extarticle}
+
+\usepackage[top=.5in,
+            bottom=.5in,
+            left=.5in,
+            right=.5in]{geometry}
+
+\usepackage{microtype}
+
+\usepackage[T1]{fontenc}
+\usepackage[ascii]{inputenc}
+
+\usepackage{amsmath, amssymb}
+\usepackage{mathtools}
+
+\usepackage{tikz}
+
+\usepackage{fancyhdr}
+
+%\usepackage{showframe}
+
+\setlength{\headheight}{.75in}
+
+\fancypagestyle{resume}{
+    \fancyhf{}
+    \chead{\textbf{Kye W. Shi} \\ \small 340 E Foothill Blvd, Box 705 \\ Claremont, CA 91711}
+    \lhead{\small \texttt{kwshi@hmc.edu} \\ \texttt{github.com/kwshi}}
+    \rhead{\small (630) 824-7713}
+}
+
+\pagestyle{resume}
+
+\usepackage{titlesec}
+
+\usepackage{enumitem}
+
+\usepackage{tabularx}
+
+\usepackage{array}
+
+\usepackage{multicol}
+
+\makeatletter
+\newcommand{\compress}{\@minipagetrue}
+\makeatother
+
+\usepackage{parskip}
+
+\newcommand{\location}[1]{(#1)}
+\newcommand{\name}[1]{\textbf{#1}\hspace{1em}}
+\newcommand{\cat}[1]{#1:}
+
+
+\renewcommand{\arraystretch}{.25}
+
+\begin{document}
+
+
+
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\scshape}r >{\compress}X | >{\footnotesize\scshape}l}
+
+Education 
+
+&
+
+\name{Harvey Mudd College} \location{Claremont, CA}
+
+B.S. in Mathematics \& Computer Science
+
+\cat{Relevant coursework} 
+\begin{itemize}
+\item Principles \& Practice of Computer Science 
+\item Multivariable Calculus
+\item Computability \& Logic
+\end{itemize}
+
+&
+
+Aug. 2017--(May 2021)
+
+\\
+
+&
+
+\name{Monte Vista Christian School} \location{Watsonville, CA}
+
+Salutatorian, GPA 4.5 (unweighted 4.0)
+
+\cat{Relevant coursework}
+\begin{multicols}{2}
+\begin{itemize}
+\item Digital Electronics
+\end{itemize}
+\end{multicols}
+
+&
+
+Aug. 2013--May 2017
+
+\\
+
+Skills
+
+&
+
+\cat{Languages}
+
+Fluent: Python, \LaTeX
+Familiar: Go, Bash, HTML/CSS
+Basic: Java, Javascript, Rust, C/C++
+
+\cat{Software} \compress
+\begin{multicols}{2}
+\begin{itemize}
+\item Arch Linux (home, servers)
+\item OpenSCAD (personal projects)
+\item Arduino (personal projects)
+\item Raspberry Pi (mini servers)
+\end{itemize}
+\end{multicols}
+
+\\
+
+Experience
+
+&
+
+\name{Tutoring}
+
+Unpaid tutoring for high school peers in physics, economics, and mathematics
+
+Paid tutoring over Skype for high school students in olympiad-level physics
+
+&
+
+2015--Present
+
+\\
+
+&
+
+\name{iOS Development}
+
+Development of ``Totem'' app, comprehensive chemical elements database
+
+&
+
+Sep.--Nov. 2014
+
+\\
+
+Activities
+
+&
+
+\name{Yale Summer Program in Astrophysics} \location{New Haven, CA}
+
+4-week research project in near-earth asteroid trajectory/collision prediction
+
+\cat{Relevant skills}
+\begin{multicols}{2}
+\begin{itemize}
+\item Asteroid observation 
+\item Asteroid trajectory regression
+\item Python (NumPy, SciPy)
+\item Statistical data analysis 
+\item Basic genetic algorithms
+\end{itemize}
+\end{multicols}
+
+&
+
+Jul.--Aug. 2016
+
+\\
+
+&
+
+\name{MathILy} \location{Bryn Mawr, PA}
+
+5-week inquiry-based mathematics exploration summer program
+
+\cat{Relevant topics}
+\begin{multicols}{2}
+\begin{itemize}
+\item Linear algebra
+\item Abstract algebra
+\item Graph theory
+\item Complex analysis
+\item Knot theory
+\item Projective geometry
+\item Number theory
+\item Applications in origami
+\end{itemize}
+\end{multicols}
+
+&
+
+Jul.--Aug. 2015, Jul. 2016
+
+\\
+
+&
+
+\name{U.S. Physics Traveling Team} \location{Baltimore, MD / Indonesia}
+
+10-day training camp in introductory modern physics, theory and experiment
+
+Participation in 2017 International Physics Olympiad representing the U.S.
+
+&
+
+Jun. 2017
+
+
+
+\\
+
+Leadership
+
+&
+
+\name{VEX Robotics} \location{High school}
+
+Lead programmer, programming mentor for teammates
+
+&
+
+Sep. 2016--Feb. 2017
+
+\\
+
+&
+
+\name{3D Printing Consultant} \location{High school}
+
+Installation and maintenance of 3d printer for engineering design class
+
+&
+
+2015--2017
+
+\\
+
+Achievements
+
+&
+
+\name{U.S. National Physics Olympiad}  Gold medal
+
+&
+
+Apr. 2016, 2017
+
+\\
+
+&
+
+\name{ACM Intercollegiate Programming Competition (ICPC)} Southern California regional qualifier
+
+&
+
+Nov. 2017
+
+\\
+
+&
+
+\name{International Physics Olympiad} Gold medal
+
+&
+
+Jul. 2017
+
+\\
+
+&
+
+\name{American Mathematics Competition} AIME qualifier
+
+&
+
+Mar. 2016, 2017
+
+
+
+
+
+
+\end{tabularx}
+\end{center}
+
+
+
+
+
+
+
+\end{document}
