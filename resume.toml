@@ -9,33 +9,29 @@
 
 [[section]]
   title = 'Education'
-
+  
   [[section.subsection]]
     title = 'Harvey Mudd College'
     location = 'Claremont, CA'
     date = 'Aug. 2017--(May 2021)'
-
     [[section.subsection.body]]
-      type = 'paragraph',
+      type = 'paragraph'
       items = ['B.S. in Mathematica & Computer Science',
                'Relevant coursework:']
-
     [[section.subsection.body]]
       type = 'itemize'
       items = ['Principles & Practice of Computer Science (2017 Fall)',
                'Multivariable Calculus (2017 Fall)',
                'Computability & Logic (2018 Spring)']
-
+               
   [[section.subsection]]
     title = 'Monte Vista Christian School'
     location = 'Watsonville, CA'
     date = 'Aug. 2014--May 2017'
-
     [[section.subsection.body]]
       type = 'paragraph'
       content = ['Salutatorian, GPA 4.5 (unweighted 4.0)',
                  'Relevant coursework:']
-
     [[section.subsection.body]]
       type = 'itemize'
       columns = 2
@@ -46,7 +42,6 @@
 
   [[section.subsection]]
     title = 'Languages'
-
     [[section.subsection.body]]
       type = 'paragraph'
       items = ['Fluent: Python, \LaTeX',
@@ -55,7 +50,6 @@
 
   [[section.subsection]]
     title = 'Software/Hardware'
-
     [[section.subsection.body]]
       type = 'itemize'
       columns = 2
