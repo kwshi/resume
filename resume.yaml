@@ -1,5 +1,11 @@
 option:
   document: 8pt
+  margin:
+    top: .75in
+    left: .25in
+    right: .25in
+    bottom: .25in
+  package: hyperref
 
 profile:
   name: Kye W. Shi
@@ -51,12 +57,11 @@ section:
             item:
               - 'Proficient: Python, \LaTeX'
               - 'Competent: Go, Bash, Javascript, HTML/CSS'
-              - 'Basically familiar: Java, Rust, C/C++, Swift'
+              - 'Familiar: Java, Rust, C/C++, Swift'
 
       - title: Software/Hardware
         body:
           - type: itemize
-            columns: 2
             item:
               - Arch Linux (personal use and server administration)
               - OpenSCAD (2D/3D CAD programming language)
@@ -67,14 +72,20 @@ section:
   - title: Projects
     subsection:
       - title: 'Totem: Table of the Elements (iOS app)'
+        
+        summary:
+
+          \url{https://appadvice.com/app/totem-table-of-the-elements/954160757}
+          (App Store link removed because of inactivity)
+        
         date: Sep.--Nov. 2014
         body:
           - type: itemize
             item:
               
-              - Developed a periodic table app that provides a comprehensive
-                database of physical/chemical/atomic properties about the
-                chemical elements
+              - Developed an interactive periodic table app that provides a
+                comprehensive database of physical/chemical/atomic properties
+                about the chemical elements
                 
               - Over 3K downloads from users in U.S., Canada, Philippines,
                 Thailand, and U.K.
@@ -94,6 +105,39 @@ section:
               - 'UI design: designed table layout and button controls to be
                 minimalistic and visually elegant but also straightforward and
                 intuitive'
+
+      - title:
+
+          '\href{https://github.com/kwshi/rex}{rex: \LaTeX\ r\''esum\''e
+          templater}'
+          
+        date: Dec. 2017--
+        summary: \url{https://github.com/kwshi/rex}
+        body:
+          - type: itemize
+            item:
+              
+              - Developed templating tool to conveniently generate \LaTeX\
+                r\'esum\'e documents from content-focused resume data files
+                based on customizable theme templates
+
+              - Generated this r\'esum\'e using rex
+
+          - type: paragraph
+            item: 'Relevant tools (Python):'
+
+          - type: itemize
+            item:
+
+              - '\href{http://jinja.pocoo.org/docs/2.10/}{Jinja2}: templating engine'
+                
+              - '\href{https://github.com/uiri/toml}{TOML},
+                \href{https://github.com/crdoconnor/strictyaml}{StrictYAML}:
+                data file parsing'
+
+#      - title: 'skad: OpenSCAD toolkit'
+#        item:
+          
             
   - title: 'Research'
     subsection:
@@ -118,26 +162,30 @@ section:
               - 'Astronomical data collection: operated computerized telescope
                 to collect image data'
 
-              - 'Data analysis: performed image filtering/reduction and star
-                detection using Python NumPy, SciPy, and AstroPy libraries'
+              - 'Data analysis: performed image reduction and star detection
+                using Python NumPy, SciPy, AstroPy libraries'
 
-              - 'Data regression via basic genetic evolution: used Gauss and
-                Lagrange methods to estimate asteroid orbit parameters, and
-                ``evolved'''' parameters to improve data fit'
+              - 'Data modeling: used basic genetic algorithms to ``evolve''''
+                preliminary orbit parameters (obtained using Gauss and Lagrange
+                methods) to fit observed data'
 
-              - 'Numerical integration: implemented numerical integration
-                algorithms (RK4) and used Python REBOUND library to simulate
-                asteroid orbits and predict potential Earth collisions'
+              - 'Numerical integration: implemented numerical integrators (RK4)
+                and used Python REBOUND library to simulate asteroid orbits and
+                predict potential Earth collisions'
 
   - title: Leadership
     subsection:
       - title: Unpaid tutoring
         date: 2015--Present
         body:
-          - type: paragraph
+          - type: itemize
             item:
-              - Volunteered to tutor high school peers in physics, economics, and math
-              - 'Accomplishments:'
+              
+              - Volunteered to tutor high school peers in physics, economics,
+                and math
+
+          - type: paragraph
+            item: 'Accomplishments:'
               
           - type: itemize
             item:
@@ -152,7 +200,7 @@ section:
         location: High school
         date: Sep. 2016--Feb. 2017
         body:
-          - type: paragraph
+          - type: itemize
             item:
               
               - Collaborated with team of three to devise and implement robot
@@ -170,10 +218,15 @@ section:
         date: Apr. 2016, 2017
         summary: Gold medal
       - title: International Physics Olympiad
+        location: Yogyakarta, Indonesia
         date: Jul. 2017
-        summary: U.S. team traveler (one of five); Gold medal
+        summary: Gold medal; U.S. traveling team of five
       - title: ACM Intercollegiate Programming Competition (ICPC)
+        location: Riverside, CA
         date: Nov. 2017
-        summary: Southern California regional competition; 11\textsuperscript{th} place (team of three)
+        summary:
+
+          Southern California regional competition; team of three placed
+          11\textsuperscript{th} among 105
 
 
