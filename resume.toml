@@ -1,4 +1,4 @@
-[options]
+[option]
   document = '8pt'
 
 [profile]
@@ -18,25 +18,25 @@
     date = 'Aug. 2017--(May 2021)'
     [[section.subsection.body]]
       type = 'paragraph'
-      items = ['B.S. in Mathematica \& Computer Science',
-               'Relevant coursework:']
+      item = ['B.S. in Mathematica \& Computer Science',
+              'Relevant coursework:']
     [[section.subsection.body]]
       type = 'itemize'
-      items = ['Principles \& Practice of Computer Science (2017 Fall)',
-               'Multivariable Calculus (2017 Fall)',
-               'Computability \& Logic (2018 Spring)']
+      item = ['Principles \& Practice of Computer Science (2017 Fall)',
+              'Multivariable Calculus (2017 Fall)',
+              'Computability \& Logic (2018 Spring)']
   [[section.subsection]]
     title = 'Monte Vista Christian School'
     location = 'Watsonville, CA'
     date = 'Aug. 2014--May 2017'
     [[section.subsection.body]]
       type = 'paragraph'
-      items = ['Salutatorian, GPA 4.5 (unweighted 4.0)',
-               'Relevant coursework:']
+      item = ['Salutatorian, GPA 4.5 (unweighted 4.0)',
+              'Relevant coursework:']
     [[section.subsection.body]]
       type = 'itemize'
       columns = 2
-      items = ['Digital Electronics (2016 Fall--2017 Spring)']
+      item = ['Digital Electronics (2016 Fall--2017 Spring)']
 
 [[section]]
   title = 'Skills'
@@ -44,19 +44,19 @@
     title = 'Languages'
     [[section.subsection.body]]
       type = 'paragraph'
-      items = ['Fluent: Python, \LaTeX',
-               'Familiar: Go, Bash, HTML/CSS',
-               'Basics: Java, Javascript, Rust, C/C++']
+      item = ['Fluent: Python, \LaTeX',
+              'Familiar: Go, Bash, HTML/CSS',
+              'Basics: Java, Javascript, Rust, C/C++']
   [[section.subsection]]
     title = 'Software/Hardware'
     [[section.subsection.body]]
       type = 'itemize'
       columns = 2
-      items = ['Arch Linux (home, servers)',
-               'OpenSCAD (personal projects)',
-               'Arduino (personal projects)',
-               'Raspberry Pi (mini servers)',
-               '3D printers']
+      item = ['Arch Linux (home, servers)',
+              'OpenSCAD (personal projects)',
+              'Arduino (personal projects)',
+              'Raspberry Pi (mini servers)',
+              '3D printers']
 
 [[section]]
   title = 'Projects'
@@ -65,8 +65,8 @@
     date = 'Sep.--Nov. 2014'
     [[section.subsection.body]]
       type = 'paragraph'
-      items = ['Developed periodic table iOS app that provided a comprehensive database of properties about the elements',
-               'Over 3K downloads from users in U.S., Canada, Philippines, Thailand, and U.K.']
+      item = ['Developed periodic table iOS app that provided a comprehensive database of properties about the elements',
+              'Over 3K downloads from users in U.S., Canada, Philippines, Thailand, and U.K.']
       
     
 
@@ -78,15 +78,15 @@
     date = 'Jul.--Aug. 2016'
     [[section.subsection.body]]
       type = 'paragraph'
-      items = 'Relevant skills:'
+      item = 'Relevant skills:'
     [[section.subsection.body]]
       type = 'itemize'
       columns = 2
-      items = ['Asteroid observation',
-               'Asteroid trajectory regression',
-               'Python (NumPy, SciPy)',
-               'Statistical data analysis',
-               'Basic genetic algorithms']
+      item = ['Asteroid observation',
+              'Asteroid trajectory regression',
+              'Python (NumPy, SciPy)',
+              'Statistical data analysis',
+              'Basic genetic algorithms']
 
 [[section]]
   title = 'Leadership'
@@ -95,17 +95,17 @@
     date = '2015--Present'
     [[section.subsection.body]]
       type = 'paragraph'
-      items = ['Volunteered to tutor high school peers in physics, economics, and math']
+      item = ['Volunteered to tutor high school peers in physics, economics, and math']
     [[section.subsection.body]]
       type = 'itemize'
-      items = 'Helped to significantly improve near-failing student grades'
+      item = 'Helped to significantly improve near-failing student grades'
   [[section.subsection]]
     title = 'VEX robotics competition'
     location = 'High school'
     date = 'Sep. 2016--Feb. 2017'
     [[section.subsection.body]]
       type = 'paragraph'
-      items = 'Helped mentor peers in ROBOTC programming'
+      item = 'Helped mentor peers in ROBOTC programming'
 
 [[section]]
   title = 'Activities'
@@ -114,19 +114,19 @@
     location = 'Bryn Mawr, PA'
     [[section.subsection.body]]
       type = 'paragraph'
-      items = ['5-week inquiry-based mathematics exploration summer program',
+      item = ['5-week inquiry-based mathematics exploration summer program',
                'Relevant topics:']
     [[section.subsection.body]]
       type = 'itemize'
       columns = 2
-      items = ['Linear algebra',
-               'Abstract algebra',
-               'Graph theory',
-               'Complex analysis',
-               'Knot theory',
-               'Projective geometry',
-               'Number theory',
-               'Applications in origami']
+      item = ['Linear algebra',
+              'Abstract algebra',
+              'Graph theory',
+              'Complex analysis',
+              'Knot theory',
+              'Projective geometry',
+              'Number theory',
+              'Applications in origami']
 
 [[section]]
   title = 'Achievements'
