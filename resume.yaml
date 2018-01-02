@@ -19,16 +19,17 @@ section:
         location: Claremont, CA
         date: Aug. 2017--(May 2021)
         body:
-        - type: paragraph
-          item:
-            - B.S. in Mathematica \& Computer Science
-            - 'Relevant coursework:'
+          - type: paragraph
+            item:
+              - B.S., undeclared major (probably Mathematics \& Computer Science)
+              - Harvey S. Mudd Merit Scholarship recipient (2017-2021)
+              - 'Relevant coursework:'
 
-        - type: itemize
-          item:
-            - Principles \& Practice of Computer Science (2017 Fall)
-            - Multivariable Calculus (2017 Fall)
-            - Computability \& Logic (2018 Spring)
+          - type: itemize
+            item:
+              - Principles \& Practice of Computer Science (2017 Fall)
+              - Multivariable Calculus (2017 Fall)
+              - Computability \& Logic (2018 Spring, not yet completed)
       - title: Monte Vista Christian School
         location: Watsonville, CA
         date: Aug. 2014--May 2017
@@ -48,49 +49,85 @@ section:
         body:
           - type: paragraph
             item:
-              - Fluent: Python, \LaTeX
-              - Familiar: Go, Bash, HTML/CSS
-              - Basics: Java, Javascript, Rust, C/C++
+              - 'Proficient: Python, \LaTeX'
+              - 'Competent: Go, Bash, Javascript, HTML/CSS'
+              - 'Basically familiar: Java, Rust, C/C++, Swift'
 
       - title: Software/Hardware
         body:
           - type: itemize
             columns: 2
             item:
-              - Arch Linux (home, servers)
-              - OpenSCAD (personal projects)
-              - Arduino (personal projects)
-              - Raspberry Pi (mini servers)
-              - 3D printers
+              - Arch Linux (personal use and server administration)
+              - OpenSCAD (2D/3D CAD programming language)
+              - Arduino (basic circuit design and programming)
+              - Raspberry Pi (mini home servers)
+              - 3D printers (maintenance, debugging, and software setup)
 
   - title: Projects
     subsection:
-      - title: Totem (iOS app)
+      - title: 'Totem: Table of the Elements (iOS app)'
         date: Sep.--Nov. 2014
         body:
-          - type: paragraph
+          - type: itemize
             item:
-              - Developed periodic table iOS app that provided a comprehensive database of properties about the elements
-              - Over 3K downloads from users in U.S., Canada, Philippines, Thailand, and U.K.
+              
+              - Developed a periodic table app that provides a comprehensive
+                database of physical/chemical/atomic properties about the
+                chemical elements
+                
+              - Over 3K downloads from users in U.S., Canada, Philippines,
+                Thailand, and U.K.
 
+          - type: paragraph
+            item: 'Relevant skills:'
 
+          - type: itemize
+            item:
+              
+              - 'Data collection: manually cross-checked and tabulated data from
+                several websites into Excel CSV'
 
+              - 'Data processing/conversion: wrote Python scripts to convert CSV
+                into iOS-compatible P-lists'
+
+              - 'UI design: designed table layout and button controls to be
+                minimalistic and visually elegant but also straightforward and
+                intuitive'
+            
   - title: 'Research'
     subsection:
-      - title: Yale Summer Program in Astrophysics
+      - title: Yale Summer Program in Astrophysics (YSPA)
         location: New Haven, CT
         date: Jul.--Aug. 2016
         body:
+          - type: itemize
+            item:
+              
+              - Undertook college-equivalent coursework in astronomical physics
+                (astronomy, orbital mechanics)
+
+              - Collected and analyzed data on asteroid ``1999ML'' to predict
+                potential future collisions with Earth
+              
           - type: paragraph
             item: 'Relevant skills:'
           - type: itemize
-            columns: 2
             item:
-              - Asteroid observation
-              - Asteroid trajectory regression
-              - Python (NumPy, SciPy)
-              - Statistical data analysis
-              - Basic genetic algorithms
+              
+              - 'Astronomical data collection: operated computerized telescope
+                to collect image data'
+
+              - 'Data analysis: performed image filtering/reduction and star
+                detection using Python NumPy, SciPy, and AstroPy libraries'
+
+              - 'Data regression via basic genetic evolution: used Gauss and
+                Lagrange methods to estimate asteroid orbit parameters, and
+                ``evolved'''' parameters to improve data fit'
+
+              - 'Numerical integration: implemented numerical integration
+                algorithms (RK4) and used Python REBOUND library to simulate
+                asteroid orbits and predict potential Earth collisions'
 
   - title: Leadership
     subsection:
@@ -98,36 +135,34 @@ section:
         date: 2015--Present
         body:
           - type: paragraph
-            item: Volunteered to tutor high school peers in physics, economics, and math
+            item:
+              - Volunteered to tutor high school peers in physics, economics, and math
+              - 'Accomplishments:'
+              
           - type: itemize
-            item: Helped to significantly improve near-failing student grades
+            item:
+
+              - 'Significantly improved a near-failing senior''s grades
+                (10\textsuperscript{th} grade)'
+              
+              - 'Helped a junior struggling in math score a 5 on the AP Calculus
+                AB test (11\textsuperscript{th} grade)'
+              
       - title: VEX robotics competition
         location: High school
         date: Sep. 2016--Feb. 2017
         body:
           - type: paragraph
-            item: Helped mentor peers in ROBOTC programming
+            item:
+              
+              - Collaborated with team of three to devise and implement robot
+                design
+              
+              - Spearheaded programming for robot remote-control and autonomous
+                algorithms
 
-  - title: Activities
-    subsection:
-      - title: MathILy
-        location: Bryn Mawr, PA
-        body:
-          - type: paragraph
-            item:
-              - 5-week inquiry-based mathematics exploration summer program
-              - 'Relevant topics:'
-          - type: itemize
-            columns: 2
-            item:
-              - Linear algebra
-              - Abstract algebra
-              - Graph theory
-              - Complex analysis
-              - Knot theory
-              - Projective geometry
-              - Number theory
-              - Applications in origami
+              - Placed third in Livermore regionals competition (2017)
+
 
   - title: Achievements
     subsection:
