@@ -9,5 +9,7 @@ pkgs.mkShell {
       findlib
       utop
       containers
+      cmdliner
+      reason
     ]);
 }
