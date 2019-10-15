@@ -1,5 +1,4 @@
 (executable
  (public_name ksresume)
  (name main)
- (libraries containers)
-)
+ (libraries containers))
