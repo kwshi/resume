@@ -1,3 +1,6 @@
 _build
 *.tex
 *.pdf
+*.install
+*.opam
+*.merlin
